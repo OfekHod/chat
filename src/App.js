@@ -1,6 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+class Message extends React.Component {
+ render() {
+   return (
+     <p className="message">
+       {this.props.message}
+     </p>
+   );
+ }
+}
 
 function App() {
   return (
@@ -9,6 +18,7 @@ function App() {
         <p>
           Chat.
         </p>
+        <Message message="Ofek gever"/>
       </header>
     </div>
   );
