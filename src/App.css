@@ -2,55 +2,6 @@
   min-height: 100vh;
 }
 
-.bar {
-  min-height: 10vh;
-  background-color: #4A6787;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(20px + 2vmin);
-  color: white;
-}
-
-.message-window {
-  min-height: 80vh;
-  background-color: #719AC8;
-  align-items: left;
-  display: flex;
-  align-content: left;
-  flex-direction: column;
-  justify-content: left;
-}
-
-.message {
-  margin-left: 1vh;
-  min-height: 10vh;
-}
-
-.message-details {
-  min-height: 3vh;
-  max-width: 20vh;
-}
-
-.message-sender {
-  font-size: 2vh;
-  color: white;
-  font-weight: bold;
-}
-
-.message-date {
-  font-size: 1.7vh;
-  color: white;
-}
-
-.message-content {
-  margin-left: 5vh;
-  max-height: 5vh;
-  font-size: 2.5vh;
-  color: white;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

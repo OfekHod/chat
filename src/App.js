@@ -1,35 +1,7 @@
 import React from 'react';
 import './App.css';
-
-class Message extends React.Component {
- render() {
-   return (
-     <div className="message">
-       <div className="message-details">
-          <div className="message-sender">
-            {this.props.sender}
-          </div>
-          <div className="message-date">
-            {this.props.date}
-          </div>
-        </div>
-        <div className="message-content">
-          {this.props.content}
-        </div>
-     </div>
-   );
- }
-}
-
-class Bar extends React.Component {
-  render() {
-    return(
-      <div className="bar">
-          {this.props.content}
-      </div>
-      )
-  }
-}
+import Message from './message.js';
+import Bar from './bar.js';
 
 function App() {
   return (
